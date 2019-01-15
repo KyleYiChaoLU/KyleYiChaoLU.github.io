@@ -8177,5 +8177,13 @@
     };
   });
 </script>
+      <script>
+      function printFrame() {
+              var frm = document.getElementById("formio").contentWindow;
+              frm.focus();// focus on contentWindow is needed on some ie versions
+              frm.print();
+              return false;
+               }
+      </script>
 
 </html>
