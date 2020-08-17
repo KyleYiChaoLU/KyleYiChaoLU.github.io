@@ -9,9 +9,22 @@
 	<meta charset="UTF-8">
 	<link href='//fonts.googleapis.com/css?family=Rokkitt:400,700|Lato:400,300' rel='stylesheet' type='text/css'>
 	<link type="text/css" rel="stylesheet" href="style.css">
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-175575592-1"></script>
 	<script>
-		window.onload = function() {
-		  document.getElementById("lastModified").innerHTML = new Date(document.lastModified).toLocaleString();
+		window.dataLayer = window.dataLayer || [];
+
+		function gtag() {
+			dataLayer.push(arguments);
+		}
+		gtag('js', new Date());
+
+		gtag('config', 'UA-175575592-1');
+	</script>
+
+	<script>
+		window.onload = function () {
+			document.getElementById("lastModified").innerHTML = new Date(document.lastModified).toLocaleString();
 		}
 	</script>
 </head>
@@ -47,7 +60,11 @@
 					</div>
 
 					<div class="sectionContent">
-						<p>I am an enterprising young professional intending to continue my development as a software programmer (especially interested in AI applied development). Meanwhile, I am dedicated and capable with nearly 2 years of experience working in start-up companies as a junior Web Application developer. Good experience of making value creations through insights gained from individual research and industry best practice.
+						<p>I am an enterprising young professional intending to continue my development as a software
+							programmer (especially interested in AI applied development). Meanwhile, I am dedicated and
+							capable with nearly 2 years of experience working in start-up companies as a junior Web
+							Application developer. Good experience of making value creations through insights gained
+							from individual research and industry best practice.
 						</p>
 						<p>My Australian permanent resident visa has been granted on March 2020.
 						</p>
@@ -64,12 +81,15 @@
 				<div class="sectionContent">
 					<article>
 						<h2>Web Developer</h2>
-						<p class="subDetails">Apr 2020 - Present (3 months Full-time, Currently Part-time), Hays Migration, Level 5 121 King William St,
+						<p class="subDetails">Apr 2020 - Present (3 months Full-time, Currently Part-time), Hays
+							Migration, Level 5 121 King William St,
 							Adelaide, Australia</p>
 						<ul style=" margin-left: 20px; ">
-							<li>Responsible for: Improving the CRM platform and contribute to the Build/Release process (Python, JavaScript);
+							<li>Responsible for: Improving the CRM platform and contribute to the Build/Release process
+								(Python, JavaScript);
 							</li>
-							<li>Work as group for: Generating unit tests for, test, and debug features with the testing team (Django Testing Tools and Selenium);
+							<li>Work as group for: Generating unit tests for, test, and debug features with the testing
+								team (Django Testing Tools and Selenium);
 							</li>
 							<li>Writing task-based scripts.
 							</li>
@@ -97,7 +117,7 @@
 				</div>
 				<div class="clear"></div>
 			</section>
-			
+
 
 			<section>
 				<div class="sectionTitle">
@@ -238,9 +258,11 @@
 					<article>
 						<b style="font-weight: bold;margin: 2px;">Interests & Additional Information</b>
 						<ul style=" margin-left: 20px; ">
-							<li>Studying and working in Australia for more than 5 years.  </li>
-							<li>Mandarin is my mother tongue, and I can also communicate efficiently in Cantonese and English.</li>
-							<li>Keen on the latest computer technology which includes Artificial Intelligence and Cloud-based technology.</li>
+							<li>Studying and working in Australia for more than 5 years. </li>
+							<li>Mandarin is my mother tongue, and I can also communicate efficiently in Cantonese and
+								English.</li>
+							<li>Keen on the latest computer technology which includes Artificial Intelligence and
+								Cloud-based technology.</li>
 							<li>Enjoy traveling and outdoor activities include camping, fishing and driving. </li>
 							<li>
 								<a href="https://www.linkedin.com/in/yichao-lu-270569159/" target="_blank">LinkedIn</a>,
@@ -260,4 +282,5 @@
 		<small>&copy; Yichao Lu; (Last Modified: <small id="lastModified"></small>)</small>
 	</div>
 </footer>
+
 </html>
